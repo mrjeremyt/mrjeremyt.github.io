@@ -298,8 +298,8 @@
                                 We used Python Anywhere to host a website as part of a 6 person group project for my Software Development class. 
                                 The point of this project was to use a database to serve a website that could be about pretty much whatever and to
                                 learn and use different technologies. We decided to use it as a Magic: the Gathering information source. The site can 
-                                be seen here. We built and used a mySQL database as the backend to serve the site and contain the information on cards, 
-                                sets, and types. We did the project in 3 iterations, each one building upon the last one. <br><br>
+                                be seen <a href="http://ni42.pythonanywhere.com/" target="_blank">here</a>. We built and used a mySQL database as the                                 backend to serve the site and contain the information on cards, sets, and types. We did the project in 3 iterations, 
+                                each one building upon the last one. <br><br>
 
                                 The first iteration was the basics:<br>
                                 <li>data collection</li>
@@ -366,20 +366,44 @@
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                <a href="https://github.com/mrjeremyt/5bits" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/5bit.jpg">
                                 </a>
-                                Description of this thing that you worked on. Description of this thing that you worked on. 
-                                Description of this thing that you worked on. Description of this thing that you worked on.
+                                <B>5Bit Project</B><br>
+                                
+                                This program was thought up over a weekend by my Systems and Architecture professor to be one of our assignments. 
+                                In short the idea is to take a byte, grab the first 5 bits, add 3 filler bits and make that a new byte to be written 
+                                out to the new file. Then you take the remaining non-filler bits and put them as the first three bits of a new byte,
+                                grab another byte and get two of its bits to make up to 5 of the new byte, add filler and push it on. The program is 
+                                designed to take entire files no matter the type, strip them down and convert them to this new format. It basically 
+                                turned out to be a mild encription program. And of course there was a flag that you could add when running it that 
+                                would allow you to "decode" the 5bit file back to the original. <br><br>
+                                
+                                This was a fun and interesting project that was originaly done in C. In the version linked, it is a c++ file. In my 
+                                spare time I am working on turning it into a c++ program for windows, built in visual studio (which I am trying to 
+                                learn) that can take files and encrypt each of them based on the process described here and a user passkey. That's the 
+                                idea at least, though I don't seem to have a lot of free time these days though. 
+                                
+                                
+                                
+                                
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                <a href="https://github.com/mrjeremyt/cs373-collatz" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/collatz.jpg">
                                 </a>
-                                Description of this thing that you worked on. Description of this thing that you worked on.
-                                Description of this thing that you worked on. Description of this thing that you worked on.
+                                <b>Collatz Conjecture</b><br>
+                                This is probably my favorite of the different python projects that I've worked on so far. It was also my first 
+                                semi-major python project. In case you're not aware, the <a href="http://en.wikipedia.org/wiki/Collatz_conjecture"
+                                target="_blank">Collatz Conjecture</a> is the idea that any integer can be reduced to 1 in a certain number of steps 
+                                provided it follows one of two steps: if it's even then divide by 2, if odd then multiply by 3 and add 1. To this 
+                                day the conjecture still hasn't been mathemetically proven, but from a coding perspective it holds up nicely. <br><br>
+                                
+                                So I wrote this program in python, with a cache system and a metacache system. If I have some free time I want to go 
+                                back and use a decorator and refactor a bit of the code to make it both as efficient and clean as possible. 
+                                
                             </div>
                         </div>
                     </div>
