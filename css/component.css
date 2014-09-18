@@ -117,7 +117,7 @@
 .gn-scroller {
 		position: absolute;
 		overflow-y: scroll;
-		width: 370px;
+		width: 360px;
 		height: 100%;
 }
 
@@ -234,21 +234,30 @@ input.gn-search:focus {
 		content: "\f002"
 }
 
-.gn-icon-globe::before {
+.gn-icon-about::before {
 		content: "\f0ac"
 }
 
-.gn-icon-players::before {
-		content: "\f0c0"
+.gn-icon-skills::before {
+		content: "\f121"
 }
 
-.gn-icon-matches::before {
-		content: "\f132"
+.gn-icon-projects::before {
+		content: "\f113"
 }
 
-.gn-icon-aboutus::before {
+.gn-icon-hobbies::before {
 		content: "\f11b"
 }
+
+.gn-icon-home::before {
+		content: "\f015"
+}
+
+
+
+
+
 
 
 /* if an icon anchor has a span, hide the span */
